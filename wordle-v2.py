@@ -16,7 +16,7 @@ def return5wordlist():
 
 wordlist5 = return5wordlist()
 
-
+#some update
 def filter5word(wordlist5, correctlettersinposition, correctlettersnotinposition, unusedletters, correctlettersnotinpositionlist):
     matchstring = correctlettersinposition.replace('-','['+unusedletters+']')
     raw_string = r"{}".format(matchstring)
